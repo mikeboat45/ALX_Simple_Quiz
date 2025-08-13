@@ -16,5 +16,9 @@ function checkAnswer() {
     }
 }
 
+// form = document.getElementById('');
 
+submitButton = document.getElementById('submit-answer');
+
+submitButton.addEventListener('click', checkAnswer);
 
